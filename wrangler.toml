@@ -29,7 +29,7 @@ ALLOWED_DISCOGS_USER_ID = "8298806"
 # must be set too, or the relay is treated as off. Keep the origin here and the
 # two credentials as secrets: a plain variable set in the dashboard is removed
 # by the next `wrangler deploy`.
-DISCOGS_RELAY_ORIGIN = "https://api.discogs.com"
+DISCOGS_RELAY_ORIGIN = ""
 
 # Durable Object for coordinated Discogs API rate limiting
 [durable_objects]
